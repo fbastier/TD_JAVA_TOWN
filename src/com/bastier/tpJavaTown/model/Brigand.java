@@ -45,8 +45,8 @@ public class Brigand extends Humain {
     @Override
     public void sePresenter() {
         super.sePresenter();
-        System.out.printf("J'ai l'air %s et j'ai capturé %d dames !\n", this.look, this.nbOtages);
-        System.out.printf("Ma tête est mise à prix %d $ !\n", this.getRecompense());
+        System.out.printf("(%s) - J'ai l'air %s et j'ai capturé %d dames !\n", this.getNom(), this.look, this.nbOtages);
+        System.out.printf("(%s) - Ma tête est mise à prix %d $ !\n", this.getNom(), this.getRecompense());
     }
 
     public int getRecompense() {

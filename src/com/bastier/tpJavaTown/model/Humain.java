@@ -6,7 +6,7 @@ public class Humain {
 
     public Humain(String nom) {
         this.nom = nom;
-        this.boissonFav = "eau";
+        this.boissonFav = "l'eau";
     }
 
     public Humain(String nom, String boissonFav) {
@@ -19,11 +19,11 @@ public class Humain {
     }
 
     public void sePresenter() {
-        System.out.printf("Bonjour, je me nomme %s et ma boisson favorite est le %s.\n", nom, boissonFav);
+        System.out.printf("(%s) - Bonjour, je me nomme %s et ma boisson favorite est le %s.\n", this.nom, this.nom, this.boissonFav);
     }
 
     public void boire() {
-        System.out.printf("Ah ! un bon verre de %s ! GLOUPS !\n", boissonFav);
+        System.out.printf("(%s) - Ah ! un bon verre de %s ! GLOUPS !\n",this.nom, this.boissonFav);
     }
 
     public void quelEstTonNom() {
