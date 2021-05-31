@@ -1,4 +1,4 @@
-package com.bastier.tpJavaTown;
+package com.bastier.tpJavaTown.model;
 
 public class Humain {
     private String nom;

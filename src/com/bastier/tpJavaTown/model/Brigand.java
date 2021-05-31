@@ -1,4 +1,4 @@
-package com.bastier.tpJavaTown;
+package com.bastier.tpJavaTown.model;
 
 public class Brigand extends Humain {
     private String look = "méchant";

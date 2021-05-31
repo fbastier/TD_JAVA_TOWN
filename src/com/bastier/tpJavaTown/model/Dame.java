@@ -1,4 +1,6 @@
-package com.bastier.tpJavaTown;
+package com.bastier.tpJavaTown.model;
+
+import com.bastier.tpJavaTown.model.Humain;
 
 public class Dame extends Humain {
     private String couleurRobe;
@@ -25,6 +27,12 @@ public class Dame extends Humain {
         System.out.printf("Oh mon héros !!");
         this.libre = true;
     }
+
+    public void changerRobe(String couleurRobe) {
+        this.couleurRobe = couleurRobe;
+        System.out.printf("Regardez ma jolie robe %s", this.couleurRobe);
+    }
+
     @Override
     public void quelEstTonNom() {
         System.out.printf("Miss %s", this.getNom());

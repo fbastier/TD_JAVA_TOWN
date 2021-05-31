@@ -1,6 +1,9 @@
-package com.bastier.tpJavaTown;
+package com.bastier.tpJavaTown.model;
 
-public class Sherif extends Cowboy{
+import com.bastier.tpJavaTown.model.Brigand;
+import com.bastier.tpJavaTown.model.Cowboy;
+
+public class Sherif extends Cowboy {
 
 
     public Sherif(String nom) {

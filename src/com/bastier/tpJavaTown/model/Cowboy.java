@@ -1,11 +1,11 @@
-package com.bastier.tpJavaTown;
+package com.bastier.tpJavaTown.model;
 
 public class Cowboy extends Humain {
     private int populaire = 0;
     private String caracteristique = "vaillant";
 
     public Cowboy(String nom) {
-        super(nom, "whisky");
+        super(nom, "le whisky");
     }
 
     public Cowboy(String nom, String boissonFav) {

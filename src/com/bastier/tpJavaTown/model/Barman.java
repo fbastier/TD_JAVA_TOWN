@@ -1,6 +1,8 @@
-package com.bastier.tpJavaTown;
+package com.bastier.tpJavaTown.model;
 
-public class Barman extends Humain{
+import com.bastier.tpJavaTown.model.Humain;
+
+public class Barman extends Humain {
     private String bar;
 
     public Barman(String nom) {
